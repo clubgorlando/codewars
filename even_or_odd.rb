@@ -1,9 +1,13 @@
+# def even_or_odd(number)
+#   if number % 2 == 0
+#     "EVEN"
+#   else
+#     "ODD"
+#   end
+# end
+
 def even_or_odd(number)
-  if number % 2 == 0
-    "EVEN"
-  else
-    "ODD"
-  end
+  number.even? ? "Even" : "Odd"
 end
 
 puts even_or_odd(0)
